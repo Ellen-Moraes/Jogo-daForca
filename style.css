@@ -4,10 +4,6 @@
     width: 30px;
 }
 
-body{
-	margin-left: 380px;
-}
-
 .titulo{
     display: block;
     margin-left: 610px;
@@ -19,6 +15,7 @@ body{
     width: 100%;
     max-width: 820px;
     margin: 0 auto;
+    margin-left: 480px;
     display: flex;
     align-items: flex-end;
     justify-content: center;
