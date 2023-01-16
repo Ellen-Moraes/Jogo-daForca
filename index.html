@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jogo da forca" />
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        body {
+            background-image: url(background.jpg);
+            background-size: 100%;
+            background-position: center;
+        }
+        
+    </style>
+    <title>Jogo da Forca</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img class="logoalura" src="logoAlura1.png" alt="logo da alura">
+            <img class="titulo" src="titulo2.gif">
+        </div>
+    </header>
+    <main>
+        <section class="section-main">
+            <div id="div-game">
+                <div id="div-tabuleiro">
+                    <canvas id="canvas" width="800" height="600"></canvas>
+                </div>
+                <div class="content">
+                    <div class="div-buttons-game">
+                        <button id="btn-new-game">Novo Jogo</button>
+                        <button id="btn-end-game">Desistir</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="div-addWord">
+                <input id="text" type="text">
+                <button id="btn-saveWord">Salvar e começar</button>
+                <button id="btn-cancel">Cancelar</button>
+            </div>
+
+            <div id="botaoInicio">
+                <button id="btn-start-game" class="btn">Jogar</button>
+                <button id="btn-add-word" class="btn">Adicionar Palavra</button>
+            </div>
+        </section>
+    </main>
+    <script type="module" src="script.js"></script>
+    <script type="module" src="/canvas.js"></script>
+
+    <footer>
+        <p class="rodape">&copy; Copyright Suellen Moraes - 2022
+    </footer>
+
+</body>
+</html>

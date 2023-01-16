@@ -1,0 +1,102 @@
+.logoalura{
+    margin-left: 90px;
+    margin-top: 40px;
+    width: 30px;
+}
+
+.titulo{
+    display: block;
+    margin-left: 610px;
+    margin-top: 170px;
+    width: 420px;
+}
+
+.section-main{
+    width: 100%;
+    max-width: 820px;
+    margin: 0 auto;
+    margin-left: 480px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: row;
+    height: 220px;
+}
+
+#div-game{
+    display: none;
+    background-color: transparent;
+}
+
+#div-addWord{
+    display: none;
+    margin-left: 70px;
+}
+
+#btn-cancel{
+    margin-left: 19px;
+}
+
+#text{
+    background-color: #FA9999;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:500;
+    font-size: 27px;
+    border-radius: 10px 10px;
+    padding: 6px 80px;
+    width: 350px;
+    margin: 50px;
+    border-style: dashed;
+}
+
+input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+#word-board{
+    color: #000;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+button{
+    flex-wrap: wrap;
+    width: 250px;
+    color: rgb(164, 0, 68);
+    margin: 0 40px;
+    padding: 18px;
+    font-family:monospace;
+    font-weight: 700;
+    font-size: 16px;
+    background: #fff7e5;
+    border-radius: 40px;
+    border-bottom: 0px;
+    border-style:none;
+    box-shadow: inset 1px 1px 5px rgb(176, 225, 255), 5px 5px 5px rgb(176, 225, 255);
+}
+
+button:hover{
+    box-shadow: 3px 3px 16px #ffbb00e6, 2px 2px 9px #ff7878;
+	font-size: 16px;
+}
+
+#botaoInicio{
+    height: 150px;
+
+}
+
+.div-buttons-game{
+    padding-top: 50px;
+}
+
+.content {    
+    margin: 0 12px;
+}
+
+.rodape {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 660px;
+}
+
+
